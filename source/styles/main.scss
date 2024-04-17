@@ -1,0 +1,10 @@
+@use 'variaveis';
+@use 'conf';
+
+body{
+    background-color: variaveis.$corSecundaria;
+
+    p,h1{
+        color: variaveis.$corSecundaria;
+    }
+}
